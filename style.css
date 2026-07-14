@@ -250,6 +250,7 @@ button:focus-visible {
   max-width: 560px;
   color: var(--slate);
   margin-bottom: 30px;
+  text-align: justify;
 }
 .hero-cta { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 26px; }
 
@@ -344,7 +345,7 @@ a.fact-value:hover { color: var(--gold-soft); }
   gap: 48px;
   align-items: start;
 }
-.about-copy p { margin-bottom: 16px; max-width: 620px; }
+.about-copy p { margin-bottom: 16px; max-width: 620px; text-align: justify; }
 .about-facts {
   background: var(--white);
   border: 1px solid var(--line);
